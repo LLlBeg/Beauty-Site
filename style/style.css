@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 
-.header {
+nav{
     background: #E5E5E5;
-    padding: 17px 0 30px;
+    padding: 17px 0 16px;
 }
 
 .container {
@@ -17,10 +17,30 @@
     margin: 0 auto;
 }
 
-.navigation ul {
+.menu {
     text-align: center;
 }
 
-.navigation li {
+.menu_item{
+    display: inline-block;
+}
+
+li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu_link{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.subheader {
+    padding: 20px 0;
+}
+
+.subheader_info {
     display: inline-block;
 }
