@@ -141,7 +141,7 @@ hr {
 
 .promo {
     min-height: 604px;
-    background-image: url("/img/Rectangle\ 2.svg");
+    background-image: url("../img/Rectangle\ 2.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -263,7 +263,7 @@ h2 {
     background: #F13C6E;
     background-image: url("../img/letter.svg");
     background-repeat: no-repeat;
-    background-position: 80% 50%;
+    background-position: 90% 50%;
     padding: 35px 0 35px 40px;
     margin-right: 26px;
 }
@@ -275,7 +275,7 @@ h2 {
     background: #F13C6E;
     background-image: url("../img/Car.svg");
     background-repeat: no-repeat;
-    background-position: 80% 50%;
+    background-position: 90% 50%;
     padding: 35px 0 35px 40px;
 }
 
