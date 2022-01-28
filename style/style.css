@@ -110,7 +110,7 @@ img {
     display: block;
 }
 
-hr {
+.strip {
     border: 1px solid #EFEFEF;
 }
 
@@ -148,8 +148,6 @@ hr {
 
 h1 {
     font-family: "Roboto_Bold";
-    font-style: normal;
-    font-weight: bold;
     font-size: 48px;
     line-height: 56px;
     color: #FFFFFF;
@@ -329,5 +327,100 @@ h2 {
 .look {
     padding: 113px 0 103px 0;
     background: #EFEFEF;
+}
+
+.footer_backmenu {
+    padding: 61px 0;
+}
+
+.footer_nav {
+    display: inline-block;
+}
+
+.footer_nav:not(:last-child) {
+    margin-right: 26px;
+}
+
+.footer_link{
+    font-family: "Roboto_Medium";
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_line {
+    width: 255px;
+    border: 1px solid #EFEFEF;
+    margin-top: 30px;
+}
+
+.footer_menu {
+    padding-top: 25px;
+}
+
+.footer_sublink {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.messengers {
+    padding: 32px 0 44px 0;
+}
+
+.messenger_menu {
+    display: inline-block;
+}
+.messengers_item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.messenger_link{
+    display: inline-block;
+    width: 45px;
+    height: 46.05px;
+    border: 2px solid #F13C6E;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 38px;
+}
+
+.messenger_info {
+    float: right;
+}
+
+.messenger_phone {
+    margin-right: 40px;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.messenger_btn {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.messenger_btn_link {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.messenger_btn:hover {
+    background: #F13C6E;
 }
 
