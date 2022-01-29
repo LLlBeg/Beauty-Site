@@ -29,11 +29,18 @@
 }
 
 .footer_sublink {
+    display: block;
     font-family: "Roboto";
     font-size: 12px;
     line-height: 28px;
     color: #828282;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer_sublink:hover {
+    background-color: #F13C6E;
+    color: #FFFFFF;
 }
 
 .messengers {
@@ -66,12 +73,13 @@
 }
 
 .messenger_phone {
-    margin-right: 40px;
+    display: inline-block;
     font-family: "Roboto";
     font-size: 16px;
     line-height: 19px;
     color: #000000;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .messenger_btn {
@@ -82,6 +90,7 @@
     border-radius: 40px;
     transition: 0.3s ease;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 .messenger_btn_link {

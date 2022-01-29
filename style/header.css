@@ -73,12 +73,13 @@ img {
 }
 
 .subheader_phone {
-    margin-right: 40px;
+    display: inline-block;
     font-family: "Roboto";
     font-size: 16px;
     line-height: 19px;
     color: #000000;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .subheader_btn {
@@ -89,6 +90,7 @@ img {
     border-radius: 40px;
     transition: 0.3s ease;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 .subheader_btn_link {
