@@ -45,6 +45,9 @@
 }
 .messengers_item {
     display: inline-block;
+}
+
+.messengers_item:not(:last-child) {
     margin-right: 30px;
 }
 
